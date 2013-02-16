@@ -1,0 +1,10 @@
+alias mocpscrob='python3 ~/localsrc/mocpscrobble/mocp-scrobbler.py'
+
+alias cd..='cd ..'
+alias cls='clear'
+
+alias dupgrade='sudo apt-get update && sudo apt-get dist-upgrade --yes && sudo apt-get autoremove'
+
+alias randomProject='cd ~/NetBeansProjects/RandomProject/src'
+
+alias sqlite='sqlite3'
