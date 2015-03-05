@@ -8,3 +8,5 @@ alias dupgrade='sudo apt-get update && sudo apt-get dist-upgrade --yes && sudo a
 alias randomProject='cd ~/NetBeansProjects/RandomProject/src'
 
 alias sqlite='sqlite3'
+
+alias listbranches="for k in `git branch|perl -pe s/^..//`;do echo -e `git show --pretty=format:"%Cgreen%ci %Cblue%cr%Creset" $k|head -n 1`\\t$k;done|sort -r"
