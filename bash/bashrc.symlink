@@ -17,7 +17,7 @@ export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; histor
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTFILESIZE=1000000000
-HISTFILESIZE=1000000000
+HISTSIZE=1000000000
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
@@ -125,3 +125,5 @@ source /usr/share/autojump/autojump.bash
 
 export PATH=$HOME/.composer/vendor/bin:$PATH
 
+alias jirash='~/src/jirash/bin/jirash'      # or whatever
+complete -C 'jirash --bash-completion' jirash   # bash completion

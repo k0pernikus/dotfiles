@@ -12,3 +12,4 @@ alias sqlite='sqlite3'
 alias listbranches='for k in `git branch|perl -pe s/^..//`;do echo -e `git show --pretty=format:"%Cgreen%ci %Cblue%cr%Creset" $k|head -n 1`\\t$k;done|sort -r'
 
 alias dev-hive-backend='/home/philipp/src/hive-docker-master/hive/run-hive-backend-dev.sh'
+alias funfact="elinks -dump randomfunfacts.com | sed -n '/^| /p' | tr -d \|"
