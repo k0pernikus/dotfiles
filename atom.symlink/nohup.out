@@ -1,0 +1,74 @@
+[13090:1106/223653:ERROR:browser_main_loop.cc(173)] Running without the SUID sandbox! See https://code.google.com/p/chromium/wiki/LinuxSUIDSandboxDevelopment for more information on developing with the sandbox on.
+[13090:1106/223654:WARNING:accelerator_util.cc(185)] Invalid accelerator token: command
+[13090:1106/223654:WARNING:accelerator_util.cc(185)] Invalid accelerator token: command
+[13090:1106/223654:WARNING:accelerator_util.cc(185)] Invalid accelerator token: command
+[13090:1106/223654:WARNING:accelerator_util.cc(185)] Invalid accelerator token: command
+[13131:1106/223654:INFO:renderer_main.cc(200)] Renderer process started
+App load time: 398ms
+[13090:1106/223654:WARNING:accelerator_util.cc(185)] Invalid accelerator token: command
+[13090:1106/223654:WARNING:accelerator_util.cc(185)] Invalid accelerator token: command
+[13090:1106/223654:WARNING:accelerator_util.cc(185)] Invalid accelerator token: command
+[13090:1106/223654:WARNING:accelerator_util.cc(185)] Invalid accelerator token: command
+[13090:1106/223656:INFO:CONSOLE(9)] "activate aligner-ruby", source: /home/philipp/.atom/packages/aligner-ruby/lib/main.coffee (9)
+[13090:1106/223656:INFO:CONSOLE(119)] "Enabled theme 'unity-ui' is not installed.", source: /usr/share/atom/resources/app.asar/src/theme-manager.js (119)
+[13090:1106/223656:INFO:CONSOLE(119)] "Enabled theme 'glacier-syntax' is not installed.", source: /usr/share/atom/resources/app.asar/src/theme-manager.js (119)
+[13090:1106/223656:INFO:CONSOLE(46)] "Window load time: 2278ms", source: file:///usr/share/atom/resources/app.asar/static/index.js (46)
+[13118:1106/223656:ERROR:gles2_cmd_decoder.cc(11539)] [GroupMarkerNotSet(crbug.com/242999)!:D026EC7EAF260000]GL ERROR :GL_INVALID_OPERATION : glTexStorage2DEXT: <- error from previous GL command
+[13090:1106/223657:WARNING:accelerator_util.cc(185)] Invalid accelerator token: command
+[13090:1106/223657:WARNING:accelerator_util.cc(185)] Invalid accelerator token: command
+Created new window in existing browser session.
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+atom: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
