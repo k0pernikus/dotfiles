@@ -117,7 +117,8 @@ export EDITOR=vim
 . ~/.hive
 export HIVE=~/src/ansible/source/hive
 
-ponysay `ddate`\n`fortune` 
+printf "`ddate`\n\n`fortune`"
+ponysay -o
 
 
 
@@ -133,3 +134,5 @@ export BASE_PATH=$HIVE/vendor/netvacation/octobot
 export JAVA_HOME=/usr/lib/jvm/java-8-oracle
 
 export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
+# Hook for desk activation
+[ -n "$DESK_ENV" ] && source "$DESK_ENV"
