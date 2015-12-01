@@ -42,8 +42,13 @@ Plugin 'scrooloose/nerdtree'
 
 Plugin 'tpope/vim-surround'
 
+Plugin 'ekalinin/Dockerfile.vim'
 
+Plugin 'ervandew/supertab'
 
+Plugin 'tpope/vim-eunuch'
+
+Plugin 'airblade/vim-gitgutter'
 
 "" END PLUGINS
 call vundle#end()            " required
@@ -63,7 +68,6 @@ filetype plugin indent on    " required
 syntax on
 set number
 set tw=200
-set t_Co=256
 
 " Wrap gitcommit file types at the appropriate length
 filetype indent plugin on
@@ -82,8 +86,6 @@ set softtabstop=4   " Sets the number of columns for a TAB
 
 set expandtab       " Expand TABs to spaces
 
-set paste
-
 set laststatus=2
 
 " Put at the very end of your .vimrc file.
@@ -99,3 +101,5 @@ augroup phpSyntaxOverride
 augroup END
 
 let g:airline_powerline_fonts = 1
+let g:gitgutter_realtime = 0
+let g:gitgutter_eager = 0
