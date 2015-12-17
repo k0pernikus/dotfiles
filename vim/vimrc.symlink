@@ -50,6 +50,20 @@ Plugin 'tpope/vim-eunuch'
 
 Plugin 'airblade/vim-gitgutter'
 
+Plugin 'matze/vim-move'
+
+Plugin 'Chiel92/vim-autoformat'
+
+Plugin 'amix/vim-zenroom2'
+
+Plugin 'junegunn/goyo.vim'
+
+Plugin 'ctrlpvim/ctrlp.vim'
+
+Plugin 'wikitopian/hardmode'
+
+set mouse=a
+
 "" END PLUGINS
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -103,3 +117,6 @@ augroup END
 let g:airline_powerline_fonts = 1
 let g:gitgutter_realtime = 0
 let g:gitgutter_eager = 0
+
+let g:HardMode_level = 'wannabe'
+autocmd VimEnter,BufNewFile,BufReadPost * silent! call HardMode()
