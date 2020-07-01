@@ -1,14 +1,16 @@
 "*":
-  editor:
-    showIndentGuide: true
-    fontSize: 26
-    invisibles: {}
-    backUpBeforeSaving: true
-    showInvisibles: true
-    softWrap: true
-    tabLength: 4
-    fontFamily: "Meslo"
+  "aligner-ruby": {}
+  "atom-beautify":
+    _analyticsUserId: "d1ef032c-5234-4ed8-aa1c-9f887e99f769"
   core:
+    audioBeep: false
+    autoHideMenuBar: true
+    disabledPackages: [
+      "background-tips"
+      "exception-reporting"
+      "metrics"
+    ]
+    hideGitIgnoredFiles: true
     ignoredNames: [
       ".bundle"
       ".git"
@@ -18,28 +20,39 @@
       "vendor"
     ]
     themes: [
-      "unity-ui"
-      "glacier-syntax"
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
     ]
-    hideGitIgnoredFiles: true
-    disabledPackages: [
-      "background-tips"
-      "exception-reporting"
-      "metrics"
-    ]
-    audioBeep: false
-    autoHideMenuBar: true
+  editor:
+    backUpBeforeSaving: true
+    fontFamily: "Fira Code"
+    fontSize: 33
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    tabLength: 4
+  "file-watcher":
+    promptWhenFileHasChangedOnDisk: false
+  "find-and-replace": {}
+  nuclide:
+    remoteProjectsConfig: []
+  "release-notes":
+    viewedVersion: "0.89.0"
   "spell-check":
     grammars: [
       "text.plain"
       "source.gfm"
       "text.git-commit"
     ]
+  tablr:
+    csvEditor: {}
+    tableEditor: {}
   welcome:
     showOnStartup: false
-  "release-notes":
-    viewedVersion: "0.89.0"
-  "find-and-replace": {}
-  "aligner-ruby": {}
-  "atom-beautify":
-    _analyticsUserId: "d1ef032c-5234-4ed8-aa1c-9f887e99f769"
+".source.ts":
+  editor:
+    tabLength: 4
+".source.tsx":
+  editor:
+    tabLength: 4

@@ -1,2 +1,2 @@
-[12014:1117/164905:ERROR:browser_main_loop.cc(173)] Running without the SUID sandbox! See https://code.google.com/p/chromium/wiki/LinuxSUIDSandboxDevelopment for more information on developing with the sandbox on.
-App load time: 288ms
+Gtk-Message: Failed to load module "overlay-scrollbar"
+App load time: 1269ms
