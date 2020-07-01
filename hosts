@@ -1,0 +1,45 @@
+127.0.0.1	localhost
+127.0.1.1	rechner
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+192.168.33.10   vagrant.local.dreamlines.de
+192.168.33.10	vagrant.local.dreamlines.com.br
+192.168.33.10   vagrant.local.dreamlines.ru
+192.168.33.10   vagrant.local.dreamlines.fr
+192.168.33.10   vagrant.local.dreamlines.nl
+192.168.33.10   vagrant.local.dreamlines.it
+192.168.33.10   vagrant.local.dreamlines.com.au
+
+192.168.33.10	local.dreamlines.de
+192.168.33.10   local.dreamlines.com.br
+192.168.33.10   local.dreamlines.ru
+192.168.33.10   local.dreamlines.fr
+192.168.33.10   local.dreamlines.nl
+192.168.33.10   local.dreamlines.it
+192.168.33.10   local.dreamlines.com.au
+
+192.168.33.10   hive.local.dreamlines.de
+192.168.33.10   hive.local.dreamlines.com.br
+192.168.33.10   hive.local.dreamlines.ru
+192.168.33.10   hive.local.dreamlines.fr
+192.168.33.10   hive.local.dreamlines.nl
+192.168.33.10   hive.local.dreamlines.it
+192.168.33.10   hive.local.dreamlines.com.au
+
+192.168.33.10	octobot.local.dreamlines.de
+
+192.168.33.10 booking-service.local.dreamlines.de
+192.168.33.10 direct-booking-form.local.dreamlines.de
+192.168.33.10 product-api.local.dreamlines.de
+
+####
+127.0.0.1 product-api.local
+127.0.0.1 booking-api.local
+127.0.0.1 direct-booking-form.local
+127.0.0.1 hive.local
